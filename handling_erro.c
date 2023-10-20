@@ -88,12 +88,12 @@ void zid_moch(int chi_erreur, ...)
 }
 
 /**
- * chaîne_err - supporti les erreurs.
+ * stream_err - supporti les erreurs.
  * @chi_erreur: les erreurs homa hado:
  * (10) ~> rakem li f node machi f les limits dyal ASCII .
  * (11) ~> stack khawi.
  */
-void chaîne_err(int chi_erreur, ...)
+void stream_err(int chi_erreur, ...)
 {
 	va_list bda;
 	int chi_rakm;

@@ -6,7 +6,7 @@
  * @new_node: new node
  * @line: rakem dyal ster
  */
-void zid_lstack(stack_t **new_node, __attribute__((unused))unsigned int  *line)
+void zid_lstack(stack_t **new_node, __attribute__((unused))unsigned int line)
 {
 	stack_t *tmp;
 

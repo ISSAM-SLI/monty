@@ -77,7 +77,7 @@ void rotl(stack_t **, unsigned int);
 
 void mochkil(int error_code, ...);
 void zid_moch(int error_code, ...);
-void chaîne_err(int error_code, ...);
+void stream_err(int error_code, ...);
 void rotr(stack_t **, unsigned int);
 
 #endif
