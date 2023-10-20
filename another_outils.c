@@ -44,7 +44,7 @@ void kra_fichier(FILE *fd)
  * @rakem_ster: rakem dyal line
  * @mise_neforme:  chi haja rak tema
  * if 1 zid chi haja
- * Return: Returns 0 
+ * Return: Returns 0
  */
 
 int kssem_ster(char *buffer_line, int rakem_ster, int mise_neforme)
@@ -73,8 +73,8 @@ int kssem_ster(char *buffer_line, int rakem_ster, int mise_neforme)
  * Lka_fonc - lka la fonction
  * @opcode: opcode
  * @value: argument of opcode
- * @mise_neforme:  storage mise_neforme. 
- * @ln: rakem dyal ster 
+ * @mise_neforme:  storage mise_neforme.
+ * @ln: rakem dyal ster
  * Return: void
  */
 void Lka_fonc(char *opcode, char *value, int ln, int mise_neforme)
@@ -119,11 +119,11 @@ void Lka_fonc(char *opcode, char *value, int ln, int mise_neforme)
 
 /**
  * lgha_lfon - lgha la fonction.
- * @func: Pointer to the function 
+ * @func: Pointer to the function
  * @op: string of the opcode.
- * @val: string tha represnts a numeric value.
+ * @val: string that represnts a numeric value.
  * @ln: rakem ster
- * @mise_neforme: mise_neforme specifier. 
+ * @mise_neforme: mise_neforme specifier.
  * chi haja rak tema.
  */
 void lgha_lfon(op_func func, char *op, char *val, int ln, int mise_neforme)

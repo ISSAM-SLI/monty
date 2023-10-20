@@ -44,7 +44,7 @@ typedef void (*op_func)(stack_t **, unsigned int);
 
 
 void fteh_dossi(char *file_name);
-int kssem_ster(char *buffer, int line_number, int format);
+int kssem_ster(char *buffer_line, int rakem_ster, int mise_neforme);
 void kra_fichier(FILE *);
 int tol_char(FILE *);
 void Lka_fonc(char *, char *, int, int);
